@@ -17,6 +17,8 @@ Keyboard.close = function() {
 };
 
 Keyboard.show = function() {
+    cordova.plugins.Keyboard.isVisible = true;
+	console.log("show");
     exec(null, null, "Keyboard", "show", []);
 };
 
