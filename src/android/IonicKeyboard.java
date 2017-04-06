@@ -20,7 +20,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.view.Display;
 import android.graphics.Point;
 import android.os.Build;
-import IonicKeybaord.java;
+import android.os.SystemClock;
 
 public class IonicKeyboard extends CordovaPlugin {
     private OnGlobalLayoutListener list;
